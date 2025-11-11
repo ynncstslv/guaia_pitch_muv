@@ -1,0 +1,122 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+.slide-container {
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-color: #131313;
+	color: white;
+}
+.slide-content {
+	position: relative;
+	z-index: 2;
+	height: 100%;
+	padding: 150px 80px;
+}
+.heading-section {
+	margin-bottom: 50px;
+}
+.heading-title {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: 10px;
+}
+.heading-accent {
+	color: #ff3758;
+}
+.comparison-container {
+	display: flex;
+	gap: 25px;
+	justify-content: space-between;
+}
+.comparison-card {
+	flex: 1;
+	background-color: rgba(112, 112, 112, 0.08);
+	border-radius: 12px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	min-height: 380px;
+	transition: transform 0.3s ease;
+}
+.comparison-card.highlight {
+	border: 2px solid #ff3758;
+	background-color: rgba(255, 68, 124, 0.1);
+	transform: translateY(-10px);
+}
+.card-header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.card-icon {
+	font-size: 32px;
+	margin-bottom: 16px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-title {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+}
+.card-subtitle {
+	font-size: 16px;
+	opacity: 0.8;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+.card-features {
+	flex-grow: 1;
+}
+.feature-item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 16px;
+}
+.feature-icon {
+	color: #ff3758;
+	font-size: 18px;
+	margin-right: 12px;
+	margin-top: 3px;
+}
+.feature-icon.negative {
+	color: #aaa;
+}
+.feature-text {
+	font-size: 18px;
+	line-height: 1.4;
+	margin: 0;
+}
+.card-footer {
+	margin-top: 20px;
+	text-align: center;
+}
+.card-tag {
+	display: inline-block;
+	background-color: rgba(255, 68, 124, 0.1);
+	border: 1px solid #ff3758;
+	border-radius: 20px;
+	padding: 5px 15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.logo-small {
+	font-weight: 800;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.guaia {
+	width: 3.5%;
+	margin-top: 89px;
+}

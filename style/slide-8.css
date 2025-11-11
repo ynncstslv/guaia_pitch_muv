@@ -1,0 +1,92 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+.slide-container {
+	width: 100%;
+	min-height: 100vh;
+	overflow: hidden;
+	position: relative;
+	background-color: #131313;
+	color: white;
+}
+.slide-content {
+	position: relative;
+	z-index: 2;
+	height: 100%;
+	padding: 150px 80px;
+}
+.heading-section {
+	margin-bottom: 50px;
+}
+.heading-title {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: 10px;
+}
+.heading-accent {
+	color: #ff3758;
+}
+.team-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+.team-card {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 12px;
+	padding: 24px;
+	border-left: 4px solid #ff3758;
+	display: flex;
+	align-items: center;
+}
+.team-icon {
+	background-color: #ff3758;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+.team-info {
+	flex: 1;
+}
+.team-name {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 0 5px 0;
+}
+.team-role {
+	font-size: 16px;
+	opacity: 0.8;
+	margin: 0;
+}
+.team-expertise {
+	font-size: 14px;
+	margin: 8px 0 0 0;
+	color: #ff3758;
+}
+.logo-small {
+	font-weight: 800;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.guaia {
+	width: 3.5%;
+	margin-top: 128px;
+}
+.team-tagline {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	font-style: italic;
+	opacity: 0.9;
+}
